@@ -77,6 +77,7 @@
 		5268D6D91BA0A38E00399464 /* ZipWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5268D6AD1BA0A38E00399464 /* ZipWriter.cpp */; };
 		526D03891F685FC5007B29E6 /* libfreetype.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 526D03501F685881007B29E6 /* libfreetype.6.dylib */; };
 		526D03C01F686290007B29E6 /* Lagometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 526D03BF1F686290007B29E6 /* Lagometer.cpp */; };
+		5281005320B1FC2F0077C14D /* PathManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5281005220B1FC2F0077C14D /* PathManager.cpp */; };
 		528B25E61B33584000849A91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528B25E51B33584000849A91 /* Cocoa.framework */; };
 		52B463A01B3365BC00C36A94 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B4639F1B3365BC00C36A94 /* OpenGL.framework */; };
 		52C38A131BA0A2A4002208C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C38A121BA0A2A4002208C5 /* main.cpp */; };
@@ -294,6 +295,8 @@
 		526D03501F685881007B29E6 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../frameworks/freetype/libfreetype.6.dylib; sourceTree = "<group>"; };
 		526D03BE1F686280007B29E6 /* Lagometer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Lagometer.hpp; path = ../../../src/Engine/include/Lagometer.hpp; sourceTree = "<group>"; };
 		526D03BF1F686290007B29E6 /* Lagometer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lagometer.cpp; path = ../../../src/Engine/src/Lagometer.cpp; sourceTree = "<group>"; };
+		5281005120B1FC160077C14D /* PathManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PathManager.hpp; sourceTree = "<group>"; };
+		5281005220B1FC2F0077C14D /* PathManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathManager.cpp; sourceTree = "<group>"; };
 		528B25E51B33584000849A91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		528B25E81B33584000849A91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		528B25E91B33584000849A91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -427,6 +430,7 @@
 		524E0F951B33747D00AF62C4 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				5281005120B1FC160077C14D /* PathManager.hpp */,
 				5206D0391F5AEAC600E9C7C7 /* FT.hpp */,
 				5206D03A1F5AEAC600E9C7C7 /* I18N.hpp */,
 				5206D03B1F5AEAC600E9C7C7 /* I18NTexts.hpp */,
@@ -494,6 +498,7 @@
 		524E0FC11B33747D00AF62C4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				5281005220B1FC2F0077C14D /* PathManager.cpp */,
 				5206D03D1F5AEADB00E9C7C7 /* I18N.cpp */,
 				52320C431D9AD58600E223C9 /* Cargo.cpp */,
 				52320C441D9AD58600E223C9 /* FileReader.cpp */,
@@ -815,6 +820,7 @@
 				5206D03E1F5AEADB00E9C7C7 /* I18N.cpp in Sources */,
 				5268D6CE1BA0A38E00399464 /* Thread.cpp in Sources */,
 				5268D6C51BA0A38E00399464 /* PNG.cpp in Sources */,
+				5281005320B1FC2F0077C14D /* PathManager.cpp in Sources */,
 				52D13D8E1BB9B2D0008B5EF5 /* MasterQuery.cpp in Sources */,
 				ECA4799C1D2BCE0D009D6C1F /* CRC64.cpp in Sources */,
 				5268D6D41BA0A38E00399464 /* Timing.cpp in Sources */,
